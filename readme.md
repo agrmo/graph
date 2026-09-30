@@ -1,14 +1,16 @@
-# Independent Set
+# graph
 
-Independent set algorithms.
+Miscellaneous graph algorithms.
+
+## independent-set-naive
+
+The naive solution to the independent set problem.
 
 > Find the largest independent set of the given undirected graph.
 
-# naive
-
 The naive solution iterates through all combinations of graphs of decreasing size. This is apparently the best you can do with no additional information about the graph. All other implementations exploit some known structure about the graph.
 
-## algorithm
+### algorithm
 
 ```
 1. for int i = (size of graph); i > 0; i -= 1:
@@ -25,7 +27,7 @@ The naive solution iterates through all combinations of graphs of decreasing siz
 6. An independent set is not found. 
 ```
 
-# example
+### example
 
 Graph:
 
