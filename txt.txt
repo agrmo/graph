@@ -1,0 +1,30 @@
+# match
+
+Graph matching algorithms.
+
+## stable-marriage
+
+The typical Gale-Shapely algorithm.
+
+> Given a bipartite graph and a preference list for each node, return a list of bipartite pairs such that all nodes are matched.
+
+Constraints:
+
+- The bipartite graph has an equal number of nodes.
+- Each preference list is complete, that is, contains a full list of nodes in the other graph.
+
+## good-marriage
+
+A variation of the stable marriage problem where some people are good and some people are bad. This reduces to a quartile matching problem where tow groups of nodes can match with only two other nodes, and vice versa. This is also reducable to the forbidden marriage problem.
+
+## forbidden-marriage
+
+A variation of the stable marriage problem where some matchings are forbidden.
+
+## indifferent-marriage
+
+A variation of the stable marriage problem where preferences are allowed to have equal ratings.
+
+## npointsinpairs
+
+Connect `n` points in pairs. An extremely important function in Quantum Field Theory.
